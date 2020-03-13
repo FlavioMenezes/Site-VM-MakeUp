@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/11/2016, 14:07:15
+    Author     : flavi
+*/
+.menu {
+    display: block;
+    float: left;
+    margin-top: -40px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #00FFD7;
+    color: #FF530D;
+}
+
+section#corpo {
+    display: block;
+    float: left;
+    margin-left: 0px;
+    width: 50px;
+}
+
+aside#lateral{
+    margin-top: 40px;
+    display: block;
+    width: 2px;
+    float: right;
+}
+
+table#tabela-dados {
+    margin-top: 5%;
+
+}
+
+table#tabela-dados, tr{
+    width: auto;
+}
+table#tabela-dados, td.campoformtabela, select, textarea {
+    width: auto;
+    height: auto;
+    
+}
+
+table#tabela-dados2, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table#tabela-dados2 {
+    display: absolute;
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+}
+
+table#tabela-dados2 {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}

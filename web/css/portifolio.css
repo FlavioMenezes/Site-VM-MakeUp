@@ -1,0 +1,57 @@
+.navbar-portifolio {
+    color: rgba(255, 148, 233, 0.44);
+    background-color: rgba(255, 148, 233, 0.44);
+}
+
+
+.navbar-portifolio {
+    color: #FF7C64;
+    background-color: rgba(255, 124, 100, 0.66);
+}
+
+#banner{
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+body {
+    background-color: #FFF;
+}
+
+ul#album-fotos{
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+    float: left;
+    width: 310px;
+    height: 310px;
+    margin: 15px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+ul#album-fotos li:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+footer {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 2em;
+    height: 100px;
+    font-size: 2rem;
+}
+

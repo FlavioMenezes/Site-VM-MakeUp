@@ -1,0 +1,50 @@
+.navbar-portifolio {
+    color: #FF7C64;
+    background-color: rgba(255, 124, 100, 0.66);
+}
+
+#formulario {
+    margin-left: 10px;
+    display: block;
+    margin-top: 10%;
+}
+
+input[type=text], [type=password], [type=date] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #cccccc;
+    -webkit-transition: 0.5s;
+    outline: none;
+    
+}
+input[type=text]:focus, [type=password]:focus, [type=date]:focus {
+    border: 3px solid #555555;
+}
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #cccccc;
+    -webkit-transition: 0.5s;
+    outline: none;
+}
+select:focus {
+    border: 3px solid #555555;
+}
+
+input#cep {
+    background-image: url(../imagem/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding-left: 40px;
+}
+
+.agendamento_img {
+    float: right;
+    display: relative;
+    margin-top: -7%;
+    margin-right: 0px;
+}
